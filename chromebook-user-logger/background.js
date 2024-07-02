@@ -1,6 +1,7 @@
-import { initializeApp } from 'firebase/app';
-import { getDatabase, ref, push, set } from 'firebase/database';
-import { getAuth, GoogleAuthProvider, signInWithCredential } from 'firebase/auth';
+// background.js
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js';
+import { getDatabase, ref, push, set } from 'https://www.gstatic.com/firebasejs/9.1.3/firebase-database.js';
+import { getAuth, GoogleAuthProvider, signInWithCredential } from 'https://www.gstatic.com/firebasejs/9.1.3/firebase-auth.js';
 
 const firebaseConfig = {
     apiKey: "AIzaSyDartyiMXChZ3RVXPnxcPhynZ_BTEWc0jM",
