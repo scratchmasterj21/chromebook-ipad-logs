@@ -19,9 +19,7 @@
         "https://www.googleapis.com/auth/userinfo.email"
       ]
     },
-    "content_security_policy": {
-      "extension_pages": "script-src 'self' https://www.gstatic.com https://www.googleapis.com; object-src 'self'"
-    },
+    "content_security_policy": "script-src 'self' https://www.gstatic.com https://www.googleapis.com; object-src 'self'",
     "privacy_policy": "https://sites.google.com/felice.ed.jp/chr-privacy-policy/home"
   }
   
