@@ -1,25 +1,24 @@
 {
-    "manifest_version": 3,
-    "name": "Chromebook User Logger",
-    "version": "1.0",
-    "permissions": [
-      "identity",
-      "storage"
-    ],
-    "background": {
-      "service_worker": "background.js"
-    },
-    "action": {
-      "default_popup": "popup.html"
-    },
-    "oauth2": {
-      "client_id": "725929097821-35jv7if92phcb9ttu5nebrc0hhg3v8cl.apps.googleusercontent.com",
-      "scopes": [
-        "https://www.googleapis.com/auth/userinfo.profile",
-        "https://www.googleapis.com/auth/userinfo.email"
-      ]
-    },
-    "content_security_policy": "script-src 'self' https://www.gstatic.com https://www.googleapis.com; object-src 'self'",
-    "privacy_policy": "https://sites.google.com/felice.ed.jp/chr-privacy-policy/home"
-  }
-  
+  "manifest_version": 3,
+  "name": "Chromebook User Logger",
+  "version": "1.0",
+  "permissions": [
+    "identity",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "oauth2": {
+    "client_id": "725929097821-35jv7if92phcb9ttu5nebrc0hhg3v8cl.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/userinfo.profile",
+      "https://www.googleapis.com/auth/userinfo.email"
+    ]
+  },
+  "content_security_policy": "script-src 'self' https://www.gstatic.com https://www.googleapis.com; object-src 'self';",
+  "privacy_policy": "https://sites.google.com/felice.ed.jp/chr-privacy-policy/home"
+}
